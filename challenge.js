@@ -35,7 +35,7 @@ class LinkedList {
   }
 
   get(index) {
-    let current = head;
+    let current = this.value;
         let count = 0; 
         /*
          index of Node we are currently looking at
